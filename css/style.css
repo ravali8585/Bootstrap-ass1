@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.container-fluid{
+    background:white;
+   
+}
+.parallax{
+    max-height: 2500px;
+}
+.head h3{
+    background: #DAA520;
+}
+.container-fluid li:hover{
+  background: #DAA520;
+}
+
+
+  .container
+  {
+      margin-top: 0px;
+      width:100%;margin: auto;
+  }
+   .carousel slide{
+    width: 100%;
+    background:#f1f1f1;
+    padding:20px;
+    margin-top: 100px;
+    
+  }
+  .row{
+    margin:auto;
+  }
+  .icon-content
+  {
+      background: white;
+  }
+  .icon-content h4
+  {
+      text-align: center;
+      text-decoration: underline;
+  }
+  .jumbtron{
+      width:100%;
+      background: #DAA520;
+      padding-top:500px;mar
+  }
+
+  
+  
+    
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/ravali/Desktop/Bootstrap/img/4.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  .footer1 {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
+ .footer1 img{
+     height: 30px;
+    width: 30px;
+ }
+
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
